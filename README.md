@@ -2,13 +2,13 @@
 
 FIIO DISC 社区固件与刷机资源。
 
-## 最新候选版本：V449
+## 当前正式版本：V449 Stable
 
 V449 在 V446 之后继续调整纯音无缝接续、蓝牙封面消息处理和睡眠关机恢复。
-固件已完成构建并核对 SHA-256；本轮尚无真机回归结果，因此按候选版发布，
-不将指令模拟检查等同于尾段重播已在设备上彻底解决。
+固件已完成构建与 SHA-256 核对，并通过 73 组轻量指令场景检查。
+验证范围及真机回归建议见下文。
 
-- [V449 候选版与校验文件](https://github.com/wanan522z/FIIO-DISC/releases/tag/v449)
+- [V449 正式版与校验文件](https://github.com/wanan522z/FIIO-DISC/releases/tag/v449)
 - [此前发布的 V446 Stable](https://github.com/wanan522z/FIIO-DISC/releases/tag/v446)
 - [全部 Releases](https://github.com/wanan522z/FIIO-DISC/releases)
 
@@ -36,6 +36,8 @@ V449 在 V446 之后继续调整纯音无缝接续、蓝牙封面消息处理和
 - 保留息屏停止封面旋转、亮屏刷新一次最新封面并继续旋转的行为。
 
 ## 下载与校验
+
+附件文件名中的 `Candidate` 是首次发布时保留的历史命名；v449 当前为正式版，固件内容和 SHA-256 均保持不变。
 
 V449 固件文件：`FIIO-DISC-V449-Candidate-rootfs.squashfs`，大小为
 **66,587,216 字节**。请同时下载同名 `.sha256.txt` 校验文件。
